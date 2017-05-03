@@ -8,9 +8,10 @@ var rando = Math.random()
 if (rando > 0.5) {
   if (name === null || name === '') {
     window.alert('The silent type, eh? We can work with that I suppose')
-  }
-else {
-    window.alert( name + ', Very nice. Now come up to the stage! I have something in my hand, and you\'ll have to pick one.')
+  } else if (name === 'stuart') {
+        window.alert('I think we\'ll cutting the show a little short tonight')
+  } else {
+    window.alert('Stuart! Very nice. Now come up to the stage! I have something in my hand, and you\'ll have to pick one.')
     var handnum = window.prompt('1 for left, 2 for right')
     handnum = parseInt(handnum)
     if (handnum === null || isNaN(handnum)) {
@@ -35,6 +36,7 @@ else {
     } else {
       window.alert('A crowd of ghosts overruns the theater')
     }
-  } else {
-    window.alert('I think we\'ll cutting the show a little short tonight')
   }
+} else {
+  window.alert('*big shrug*')
+}
