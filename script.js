@@ -40,6 +40,7 @@ if (rando > 0.5) {
       window.alert('A crowd of ghosts overruns the theater')
     }
     //
+    //
   }
 } else {
   window.alert('*big shrug*')
