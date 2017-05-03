@@ -5,7 +5,7 @@ window.alert(
 var name = window.prompt('You! What\'s your name?')
 name = name.toLowerCase().trim()
 var rando = Math.random()
-if (randNum > 0.5) {
+if (rando > 0.5) {
   if (name === null || name === '') {
     window.alert('The silent type, eh? We can work with that I suppose')
   } else if (name === 'stuart') {
