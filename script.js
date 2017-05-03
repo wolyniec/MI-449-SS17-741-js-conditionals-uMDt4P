@@ -14,7 +14,7 @@ if (rando > 0.5) {
     //
   } else {
     //
-    window.alert('Stuart! Very nice. Now come up to the stage! I have something in my hand, and you\'ll have to pick one.')
+    window.alert(name + '! Very nice. Now come up to the stage! I have something in my hand, and you\'ll have to pick one.')
     var handnum = window.prompt('1 for left, 2 for right')
     handnum = parseInt(handnum)
     if (handnum === null || isNaN(handnum)) {
